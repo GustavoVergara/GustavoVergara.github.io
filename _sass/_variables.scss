@@ -26,6 +26,12 @@
   --blue-400: #4dabf7;
   --yellow-100: #fff3bf;
 
+  --gray-950: hsl(200, 3%, 12%);
+  --gray-350: hsl(0, 0%, 85%);
+  --pure-gray-250: rgba(255, 255, 255, 0.75);
+  --pure-gray-850: rgba(255, 255, 255, 0.15);
+  --white: rgb(255, 255, 255);
+
   --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --body-font-size: 16px;
   --body-line-height: 1.5;
@@ -51,15 +57,15 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --body-color: var(--gray-300);
-    --body-bg: var(--gray-800);
+    --body-color: var(--gray-350);
+    --body-bg: var(--gray-950);
 
-    --heading-color: #fff;
+    --heading-color: var(--gray-350);
 
-    --link-color: var(--blue-300);
-    --link-hover-color: var(--blue-400);
+    --link-color: var(--pure-gray-250);
+    --link-hover-color: var(--white);
 
-    --border-color: rgba(255,255,255,.15);
+    --border-color: var(--pure-gray-850);
 
     --code-bg: var(--gray-900);
   }
