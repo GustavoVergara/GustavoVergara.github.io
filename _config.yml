@@ -1,7 +1,7 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
+title: Gustavo Vergara
+tagline: Dev
+url: https://gustavovergara.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -28,14 +28,13 @@ sass:
 
 # Options
 
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
+ga_analytics: G-EEX6L63TQF
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Gustavo Vergara
+  url: https://github.com/GustavoVergara
+  email: gustavovergara.dev@gmail.com
 
 # Custom vars
 version: 3.0.0
