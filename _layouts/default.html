@@ -12,7 +12,7 @@
           <small>{{ site.tagline }}</small>
 
           <nav class="nav">
-            {% for item in site.navigationItems %}
+            {% for item in site.data.navigation %}
             <small><a href="{{ item.path }}">{{ item.title }}</a></small>
             {% endfor %}
           </nav>
