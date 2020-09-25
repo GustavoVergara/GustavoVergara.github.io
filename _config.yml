@@ -38,3 +38,11 @@ author:
 
 # Custom vars
 version: 3.0.0
+
+# Navigation Bar
+navigationItems:
+  - title: Posts
+    path: /archive
+
+  - title: About
+    path: /about
