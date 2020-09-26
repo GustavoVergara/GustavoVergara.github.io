@@ -1,7 +1,6 @@
 # Setup
 title: Gustavo Vergara
 tagline: Dev
-url: https://gustavovergara.github.io
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -11,6 +10,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
 # Optimize Jekyll
 exclude:

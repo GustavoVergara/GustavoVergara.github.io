@@ -10,12 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+
       - uses: mathieudutour/github-tag-action@v4.6
         with:
           github_token: ${{ secrets.JEKYLL_PAT }}
           release_branches: main
-          
+
       - uses: helaili/jekyll-action@2.0.1
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }}
