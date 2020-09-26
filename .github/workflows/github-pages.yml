@@ -10,24 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        
+
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-          
+
       - uses: helaili/jekyll-action@2.0.1
         env:
           JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
           JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_PAT }}
-          
+
       - uses: mathieudutour/github-tag-action@v4.6
         with:
           github_token: ${{ secrets.JEKYLL_PAT }}
           release_branches: main
-          
+
       - uses: actions/upload-artifact@v2
         with:
           name: jekyll-cache
