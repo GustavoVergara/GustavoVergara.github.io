@@ -5,7 +5,6 @@ lastmod = "2024-01-20"
 author = "Radek"
 goimportpackage = true
 cover = "cover.jpg"
-slug = "113uh13b1ib1iyeb1"
 +++
 
 Welcome in demo of the `Terminal` theme. Please, look around and check whether this is what you are looking for.

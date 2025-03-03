@@ -1,7 +1,11 @@
 baseurl = "/"
 languageCode = "en-us"
-paginate = 5
+pagination.pagerSize = 5
 # theme = "terminal"
+
+[markup.highlight]
+  noClasses = false
+
 [markup.goldmark.renderer]
   unsafe = true
 
