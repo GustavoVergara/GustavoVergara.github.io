@@ -20,6 +20,8 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 {{< vimeo_simple 48912912 >}}
 
-## Twitter Simple Shortcode
+## X Simple Shortcode
+
+Maybe let's all forget about X for some time. Maybe even forever? But in case you really need to put something from that cesspool on your website, it looks like this:
 
 {{< twitter_simple user="x" id="1085870671291310081" >}}

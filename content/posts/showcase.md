@@ -59,7 +59,6 @@ The blockquote element represents content that is quoted from another source, op
 
 <button>Button</button>
 <a href="">Link</a>
-<a href="" class="button inline">Link</a>
 
 ## Tables
 
